@@ -1,3 +1,3 @@
 # My Portfolio 
- My portfolio 
- Changes has to be made yet.
+ My portfolio, 
+ Changes have to be made yet.

@@ -1,0 +1,120 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 10rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      justify-content: center;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    .logo{
+        display: none;
+    }
+    .hamburger-menu{
+        position: absolute;
+        right: 30px;
+    }
+    article {
+      font-size: 1rem;
+    }
+    /*.contact-info-upper-container,*/
+    .about-containers,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    /*.contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }*/
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .title-about{
+        margin-top: 10px;
+    }
+    .about-col1 {
+      flex-basis: 60%;
+      margin-bottom: 30px;
+      margin-top: 100px;
+    }
+    .about-col2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 90%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+  }
